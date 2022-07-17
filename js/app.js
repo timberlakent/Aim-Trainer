@@ -17,7 +17,7 @@ buttonTwo.style.display="none"
 lastButton.style.display="none"
 //add an on click event listener that starts the game and timer.
 buttonOne.addEventListener('click', event =>{
-        console.log("hello")
+        // console.log("hello")
        clear = setInterval(updateCountdown, 1000);
         event.target.remove();
         buttonTwo.style.display="inline";
@@ -31,6 +31,7 @@ buttonTwo.addEventListener('click', event => {
 lastButton.addEventListener('click', event =>{
     event.target.remove();
     clearInterval(clear)
+    message();
     
     
 
@@ -55,3 +56,7 @@ function updateCountdown() {
     time++;
 }
 //end timer logic
+function message() {
+    alert("Play again?");
+    window.location.reload();
+}
