@@ -1,0 +1,37 @@
+h1,h2 {
+    text-align: center;
+}
+body {
+    background-image: ;
+}
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+body {
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/002/015/238/original/abstract-3d-pattern-grid-retro-sci-fi-background-free-video.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 200px; */
+    height: 100vh;
+}
+
+#circle1 img{
+    display: block;
+    margin-top: 220px;
+    margin-left: auto;
+    margin-right: auto;
+  top: 20px;
+  width: 10%;
+}
+#countdown {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: right;
+    justify-content: right;
+    position: relative;
+    margin-top: 20px;
+    font-size: 50px;
+    width: 200px;
+    height: 300px;
+}
