@@ -35,6 +35,7 @@ button11.style.display="none"
 button12.style.display="none"
 lastButton.style.display="none"
 
+
 //create start button listener that on click: starts the timer and calls the circle gen.
 startButton.addEventListener('click', event => {
     clear = setInterval(updateCountdown, 1000);
@@ -50,7 +51,8 @@ practiceButton.addEventListener('click', event => {
     event.target.remove();
     startButton.remove();
     startScreen.remove();
-    clear = setInterval(updateCountdown, 1000);
+    gameScreen.remove();
+    // clear = setInterval(updateCountdown, 1000);
     buttonOne.style.display="inline";
 
 })
@@ -124,7 +126,7 @@ button12.addEventListener('click', event => {
 
 lastButton.addEventListener('click', event =>{
     event.target.remove();
-    clearInterval(clear)
+    // clearInterval(clear)
     message();
 })
 
@@ -137,8 +139,6 @@ gameScreen.addEventListener('click', event => {
         if(score <= 0) {
             return alert("oof...0 circles clicked...lets not talk about it.")
         } else {
-        
-
         miss();
     }
 }
