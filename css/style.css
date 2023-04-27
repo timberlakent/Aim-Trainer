@@ -16,11 +16,10 @@ body {
     background-repeat: no-repeat;
     /* width: 200px; */
     height: 100vh;
+    text-align: center;
 }
 #practice-button {
     height: 60px;
-    margin-left: 170px;
-    padding-left: 0px;
     color: white;
   
     
@@ -29,9 +28,6 @@ body {
 
 #start-button {
     height: 60px;
-    margin-left: 380px;
-    padding-right: 0px;
-    text-align: right;
     color: white;
  
 
