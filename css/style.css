@@ -19,6 +19,7 @@ body {
     text-align: center;
 }
 #practice-button {
+    font-size: 30px;
     height: 60px;
     color: white;
   
@@ -27,6 +28,8 @@ body {
 }
 
 #start-button {
+    font=size: 30px;
+    padding-left: 10px;
     height: 60px;
     color: white;
  
