@@ -1,5 +1,6 @@
 h1,h2 {
     text-align: center;
+    color: white
 }
 body {
     background-image: ;
@@ -9,23 +10,29 @@ body {
     margin: 0;
 }
 body {
-    background: url(https://static.vecteezy.com/system/resources/thumbnails/002/015/238/original/abstract-3d-pattern-grid-retro-sci-fi-background-free-video.jpg);
+    background: url(https://media.istockphoto.com/id/1294603953/vector/abstract-black-stripes-diagonal-background.jpg?s=612x612&w=0&k=20&c=nQZHTk-o97cNVqWnUe8BJg0A5jQG0tqylquzbt9YtcQ=);
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     /* width: 200px; */
     height: 100vh;
 }
-#practice-button img{
+#practice-button {
     height: 60px;
     margin-left: 170px;
     padding-left: 0px;
+    color: white;
+  
+    
+    
 }
 
-#start-button img {
+#start-button {
     height: 60px;
     margin-left: 380px;
     padding-right: 0px;
+    color: white;
+ 
 
 }
 
